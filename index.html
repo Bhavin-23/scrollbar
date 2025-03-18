@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Wonders</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+       
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: medium; 
+            font-weight: bold;
+        }
+
+        p:hover {
+            font-size: larger; 
+        }
+
+        #mini-div {
+            margin: 20px;
+            background-color: black;
+            width: 220px;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px solid white;
+            float: left;
+            padding: 10px;
+        }
+
+        button {
+            width: 120px;
+            border-radius: 10px;
+            height: 30px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: green;
+            color: white;
+            width: 130px;
+            height: 35px;
+        }
+
+        #mini-div:hover {
+            box-shadow: 0px 0px 30px lime;
+        }
+
+        #card {
+            height: 350px;
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            white-space: nowrap;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        #card::-webkit-scrollbar {
+            display: none;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+         <h1>MY PAINTING<hr></h1>
+
+    <section id="card">
+        <div id="mini-div">
+            <img src="img/mahadev.webp" alt="">
+            <p>MAHADEV</p>
+            <button>MORE</button>
+        </div>
+
+        <div id="mini-div">
+            <img src="img/eye.jpg" alt="">
+            <p>EYE</p>
+            <button>MORE</button>
+        </div>
+
+        <div id="mini-div">
+            <img src="img/ganpati.jpg" alt="">
+            <p>GANPATI</p>
+            <button>MORE</button>
+        </div>
+
+        <div id="mini-div">
+            <img src="img/krishna birth.jpg" alt="">
+            <p>JANMASTHAMI</p>
+            <button>MORE</button>
+        </div>
+
+        <div id="mini-div">
+            <img src="img/shivaji.jpg" alt="">
+            <p>CHHATRAPATI SHIVAJI</p>
+            <button>MORE</button>
+        </div>
+
+        <div id="mini-div">
+            <img src="img/heart.jpg" alt="">
+            <p>HUMAN HEART</p>
+            <button>MORE</button>
+        </div>
+
+        <div id="mini-div">
+            <img src="img/radhe krisna.jpg" alt="">
+            <p>RADHE KRISHNA</p>
+            <button>MORE</button>
+        </div>
+
+        <div id="mini-div">
+            <img src="img/virat kohali.jpg" alt="">
+            <p>VIRAT KOHALI</p>
+            <button>MORE</button>
+        </div>
+    </section>
+
+</body>
+</html>
